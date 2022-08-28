@@ -1,0 +1,12 @@
+{ 
+  "nombre": "Jacqueline Apaza Ayala",
+  "titulo" : "Desarrolladora Web jr.",
+  "fec_nac" : "15/02/1983",
+  "edad" : "41",
+  "website" : "www.jacquelineapaza.com.ar",
+  "grado" : "grado A",
+  "telefono" : "156 123 456",
+  "email" : "jaqueline@server.com",
+  "ciudad" : "Rosario",
+  "provincia" : "Santa Fe"
+}

@@ -1,0 +1,101 @@
+<!-- ======= About Section ======= -->
+<section id="about" class="about" data-aos="fade-right">
+    <div class="container">
+        <div class="section-title">
+            <h2>Acerca de mí</h2>
+            <div class="input-group input-group-sm mb-3">
+                <input id="txtAcercaDeMi01" name = "txtAcercaDeMi01" type="text" class="form-control" value="{{DatosMios.nombre}}">
+                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtAcercaDeMi01')"><i class="{{IconoModif}}"></i></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="../assets/Imagenes/yo.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <div class="input-group input-group-sm mb-3">
+                    <i class={{IconoDerecha}}></i><strong>Título:</strong> &nbsp; &nbsp;
+                    <input id="txtTituloRecibido" name = "txtTituloRecibido" type="text" class="form-control TitulosH3" value="{{DatosMios.titulo}}">
+                    <button class="btn btn-secondary" type="button" (click)="Habilitar('txtTituloRecibido')"><i class="{{IconoModif}}"></i></button>
+                </div>
+
+                <p class="fst-italic">
+                </p>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                    <ul>
+                        <li>
+                            <i class={{IconoDerecha}}></i><strong>Cumpleaños:</strong>
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtCumple" name = "txtCumple" type="text" class="form-control" value="{{DatosMios.fec_nac}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtCumple')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                             <i class={{IconoDerecha}}></i><strong>Website:</strong>
+                             <div class="input-group input-group-sm mb-3">
+                                <input id="txtWebsite" name = "txtWebsite" type="text" class="form-control" value="{{DatosMios.website}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtWebsite')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                            <i class={{IconoDerecha}}></i><strong>Teléfono:</strong>
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtTelefono" name = "txtTelefono" type="text" class="form-control" value="{{DatosMios.telefono}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtTelefono')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                            <i class={{IconoDerecha}}></i>
+                            <strong>Ciudad:</strong>
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtCiudad" name = "txtCiudad" type="text" class="form-control" value="{{DatosMios.ciudad}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtCiudad')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                    <ul>
+                        <li>
+                            <i class={{IconoDerecha}}></i><strong>Años:</strong>
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtAnios" name = "txtAnios" type="text" class="form-control" value="{{DatosMios.edad}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtAnios')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                            <i class={{IconoDerecha}}></i><strong>Grado:</strong>
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtGrado" name = "txtGrado" type="text" class="form-control" value="{{DatosMios.grado}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtGrado')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                            <i class={{IconoDerecha}}></i><strong>Email:</strong> 
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtEmail" name = "txtEmail" type="text" class="form-control" value="{{DatosMios.email}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtEmail')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                        <li>
+                            <i class={{IconoDerecha}}></i><strong>Provincia:</strong>
+                            <div class="input-group input-group-sm mb-3">
+                                <input id="txtProvincia" name = "txtProvincia" type="text" class="form-control" value="{{DatosMios.provincia}}">
+                                <button class="btn btn-secondary" type="button" (click)="Habilitar('txtProvincia')"><i class="{{IconoModif}}"></i></button>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <p>
+                   
+                </p>
+            </div>
+        </div>
+    </div>
+</section><!-- End About Section -->
